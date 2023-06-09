@@ -1,0 +1,46 @@
+{
+  "name": "@slekup/ui",
+  "version": "0.0.1",
+  "description": "Slekup's UI package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slekup/ui"
+  },
+  "keywords": [
+    "ui",
+    "react",
+    "slekup",
+    "components"
+  ],
+  "author": "Slekup",
+  "license": "ISC",
+  "files": [
+    "src/**/*"
+  ],
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "@types/react": "^18.2.9",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.8"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "quoteProps": "consistent",
+    "jsxSingleQuote": false,
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "bracketSameLine": true,
+    "arrowParens": "always"
+  }
+}
